@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>galeria de fotos</title>
+    <style>
+        body {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: 0;
+          height: 100vh;
+          background-color: #c3c3c3;
+          font-family: Arial, sans-serif;  
+        }
+
+        .title {
+            background-color: red;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .title h1 {
+            margin: 0;
+            color: #fff;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            max-width: 800px;
+            padding: 10px;
+        }
+
+        .gallery-item {
+           flex: 1 1 calc(33.333% - 10px);
+           box-sizing: border-box; 
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>GALERIA</h1>
+    </div>
+    <div class="content">
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://img.freepik.com/fotos-gratis/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.jpg?t=st=1721152843~exp=1721156443~hmac=4b6d0cec7a47449da83c50739ecc66a88d0d2c7bc96719580623648a632f7b70&w=740" alt="foto 1">
+            </div>
+                <div class="gallery-item">
+                    <img src="https://img.freepik.com/fotos-gratis/podio-redondo-de-luz-vermelha-e-fundo-preto-para-simulacao_43614-950.jpg?w=360&t=st=1721153228~exp=1721153828~hmac=af118914d474eae845c65bcf1c6a408b6908fd4194a4ac63bc3c0fc4dd0d7a2d" alt="foto 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://img.freepik.com/vetores-gratis/fundo-de-design-de-padrao-organico-abstrato_1048-19286.jpg?size=626&ext=jpg&ga=GA1.1.689175244.1721153089&semt=sph" alt="foto 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://img.freepik.com/fotos-gratis/fundo-de-ficcao-cientifica-futurista-moderno_35913-2152.jpg?size=626&ext=jpg&ga=GA1.1.689175244.1721153089&semt=sph" alt="foto 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://img.freepik.com/fotos-gratis/3d-interior-de-quarto-grunge-com-holofotes-e-fundo-de-atmosfera-esfumacada_1048-11333.jpg?size=626&ext=jpg&ga=GA1.1.689175244.1721153089&semt=sph" alt="foto 5">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://img.freepik.com/fotos-premium/fumaca-branca-do-palco-e-holofotes_327072-354.jpg?size=626&ext=jpg&ga=GA1.1.689175244.1721153089&semt=sph" alt="foto 6">
+                </div>
+        </div>
+    </div>
+</body>
+</html>
