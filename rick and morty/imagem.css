@@ -1,0 +1,72 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/d695d370-92f6-4f67-9685-3913e92f67b0/Rick+and+Morty?format=500w);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+
+#rickAndMortyInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    background-color: #222;
+    color: #00ff00;
+}
+
+#fetchRickAndMortyButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00ff00;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#fetchRickAndMortyButton:hover {
+    background-color: #00cc00;
+}
+
+#rickAndMortyDetails {
+    margin-top: 20px;
+}
+
+#rickAndMortyDetails h2 {
+    color: #00ff00;
+}
+
+#rickAndMortyDetails p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#rickAndMortyDetails img {
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    }
+}
