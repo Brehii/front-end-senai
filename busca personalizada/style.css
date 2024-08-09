@@ -1,0 +1,100 @@
+/* Estilo global */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('data:image/jpeg;base64,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') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Sobreposição de cor para o fundo */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Ajuste a opacidade e a cor conforme necessário */
+    z-index: -1;
+}
+
+/* Container de busca */
+.search-container {
+    max-width: 600px;
+    margin: 20px;
+    padding: 30px;
+    background: #ffffff00;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de hover para o container */
+.search-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo do input de busca */
+input[type="text"] {
+    width: calc(100% - 110px);
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #ced4da;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Efeito de foco no input */
+input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Estilo do botão de busca */
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeito de hover e foco no botão */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Estilo dos resultados */
+#results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.result-item {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de hover para os itens de resultado */
+.result-item:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
